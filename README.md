@@ -42,9 +42,8 @@
     <section id="about-me">
         <h2>About Me</h2>
         <div>
-            <img src="student-photo.jpg" alt="[Student Name]">
-            <p>Contact: [Student Email]</p>
-            <p>[Short Biography]</p>
+            <img src="student-photo.jpg" alt="[Denis Dalkevich]">
+            <p>Username: [XxXben228XxX]</p>
         </div>
     </section>
 
@@ -54,7 +53,6 @@
         <ul>
             <li>
                 <a href="practical-work1.html">Practical Work 1</a>
-                <p>[Brief Description]</p>
                 <table>
         <thead>
             <tr>
@@ -183,7 +181,6 @@
                 <a href="practical-work2.html">Practical Work 2</a>
                 <p>[Brief Description]</p>
             </li>
-            <!-- Add more practical work items as needed -->
         </ul>
     </section>
 
@@ -199,7 +196,6 @@
                 <a href="lab-task2.html">Laboratory Task 2</a>
                 <p>[Brief Description]</p>
             </li>
-            <!-- Add more laboratory task items as needed -->
         </ul>
     </section>
 </body>
