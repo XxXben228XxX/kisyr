@@ -95,14 +95,14 @@
             <tr>
                 <td rowspan="2">Tue 19.09.2023</td>
                 <td>3 pair<br>11:45-13:20</td>
-                <td>IM [Practical lesson]<br>audio 506</td>
-                <td></td>
+                <td>IM [Practical lesson]</td>
+                <td>audio 506</td>
                 <td>Gordiychuk N.V.</td>
             </tr>
             <tr>
                 <td>4 pair<br>13:30-15:05</td>
-                <td>IM [Practical lesson]<br>audio 320</td>
-                <td></td>
+                <td>IM [Practical lesson]</td>
+                <td>audio 320</td>
                 <td>Gordiychuk N.V.</td>
             </tr>
 
@@ -110,20 +110,20 @@
             <tr>
                 <td rowspan="3">Wed 20.09.2023</td>
                 <td>3 pair<br>11:45-13:20</td>
-                <td>WEB tech.-2016 [Laboratory lesson]<br>audio 206</td>
-                <td></td>
+                <td>WEB tech.-2016 [Laboratory lesson]</td>
+                <td>audio 206</td>
                 <td>Gordienko K.O.</td>
             </tr>
             <tr>
                 <td>4 pair<br>13:30-15:05</td>
-                <td>JJG-15 [Laboratory lesson]<br>audio 206</td>
-                <td></td>
+                <td>JJG-15 [Laboratory lesson]</td>
+                <td>audio 206</td>
                 <td>Vyshnivskyi O.V.</td>
             </tr>
             <tr>
                 <td>5 pair<br>15:15-16:50</td>
-                <td>VM [Laboratory lesson]<br>audio 310</td>
-                <td></td>
+                <td>VM [Laboratory lesson]</td>
+                <td>audio 310</td>
                 <td>S. V. Simchenko.</td>
             </tr>
 
@@ -143,8 +143,8 @@
             </tr>
             <tr>
                 <td>5 pair<br>15:15-16:50</td>
-                <td>TO [Laboratory lesson]<br>audio 206</td>
-                <td></td>
+                <td>TO [Laboratory lesson]</td>
+                <td>audio 206</td>
                 <td>Bazhan T.O.</td>
             </tr>
 
@@ -152,26 +152,26 @@
             <tr>
                 <td rowspan="4">Fri 09/22/2023</td>
                 <td>2 pairs<br>09:45-11:20</td>
-                <td>PPPI-15 [Practical lesson]<br>audio 325</td>
-                <td></td>
+                <td>PPPI-15 [Practical lesson]</td>
+                <td>audio 325</td>
                 <td>Svatko V.V.</td>
             </tr>
             <tr>
                 <td>3 pair<br>11:45-13:20</td>
-                <td>VM [Practical lesson]<br>audio 521</td>
-                <td></td>
+                <td>VM [Practical lesson]</td>
+                <td>audio 521</td>
                 <td>Varshamov A.V.</td>
             </tr>
             <tr>
                 <td>4 pair<br>13:30-15:05</td>
-                <td>TO [Lecture]<br>audio 0-24-1</td>
-                <td></td>
+                <td>TO [Lecture]</td>
+                <td>audio 0-24-1</td>
                 <td>Zhebka V.V.</td>
             </tr>
             <tr>
                 <td>5 pair<br>15:15-16:50</td>
-                <td>PPPI-15 [Lecture]<br>audio 512</td>
-                <td></td>
+                <td>PPPI-15 [Lecture]</td>
+                <td>audio 512</td>
                 <td>Svatko V.V.</td>
             </tr>
         </tbody>
