@@ -86,8 +86,8 @@
             </tr>
             <tr>
                 <td>6 pair<br>17:00-18:35</td>
-                <td>VM [Lecture]<br>audio distance</td>
-                <td></td>
+                <td>VM [Lecture]</td>
+                <td>audio distance</td>
                 <td>Lykhodeeva H.V.</td>
             </tr>
 
