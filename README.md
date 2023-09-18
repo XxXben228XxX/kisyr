@@ -35,7 +35,7 @@
     <!-- Page Title -->
     <header>
         <h1>Personal Website</h1>
-        <h2>[Student Name]</h2>
+        <h2>[Denis Dalkevich]</h2>
     </header>
 
     <!-- About Me Section -->
