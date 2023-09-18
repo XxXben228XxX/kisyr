@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -203,15 +202,5 @@
             <!-- Add more laboratory task items as needed -->
         </ul>
     </section>
-
-    <!-- Footer -->
-    <footer>
-        <div>
-            <p>Contact: [Student Email]</p>
-            <p>Social Media: [Social Media Links]</p>
-            <p>Years of Study: [Years]</p>
-            <p>GitHub: <a href="[GitHub Link]">[GitHub Repository]</a></p>
-        </div>
-    </footer>
 </body>
 </html>
