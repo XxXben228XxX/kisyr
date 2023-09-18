@@ -68,7 +68,7 @@
             <tr>
                 <td rowspan="4">Mon 18.09.2023</td>
                 <td>3 pair<br>11:45-13:20</td>
-                <td>JJG-15 [Luke]</td>
+                <td>JJG-15 [Lk]</td>
                 <td>audio 301</td>
                 <td>Vyshnivskyi O.V.</td>
             </tr>
@@ -164,7 +164,7 @@
             </tr>
             <tr>
                 <td>4 pair<br>13:30-15:05</td>
-                <td>TO [Luke]<br>audio 0-24-1</td>
+                <td>TO [Lk]<br>audio 0-24-1</td>
                 <td></td>
                 <td>Zhebka V.V.</td>
             </tr>
