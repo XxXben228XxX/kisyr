@@ -52,7 +52,7 @@
         <h2>Practical Works</h2>
         <ul>
             <li>
-                <a href="practical-work1.html">Practical Work 1</a>
+                <a href="/kisyr/Practical_work_1.html">Practical Work 1</a>
                 <table>
         <thead>
             <tr>
