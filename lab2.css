@@ -1,0 +1,80 @@
+/* Task 1: Select the first <li> element and make it bold */
+li:first-child {
+    font-weight: bold;
+}
+
+/* Task 2: Select all <a> elements that are the last child elements of their parent, and paint them red */
+a:last-child {
+    color: red;
+}
+
+/* Task 3: Select all input elements that are disabled and give them a gray background color */
+input[disabled] {
+    background-color: gray;
+}
+
+/* Task 4: Select all <p> elements that are direct children of the <div> element, and make them bold */
+div > p {
+    font-weight: bold;
+}
+
+/* Task 5: Select all elements that have an href attribute starting with https and color them in green color */
+[href^="https"] {
+    color: green;
+}
+
+/* Task 6: Select all input elements that have an attribute of type text and give them a 1px solid blue border */
+input[type="text"] {
+    border: 1px solid blue;
+}
+
+/* Task 7: Select all <li> elements that are first or last child elements of their parent element and set their font size to 24px */
+li:first-child,
+li:last-child {
+    font-size: 24px;
+}
+
+/* Task 8: Select all the <p> elements that are descendants of the <div> element and set their font size to 16px */
+div p {
+    font-size: 16px;
+}
+
+/* Task 9: Select all <input> elements with the value checked and give them a background color of light blue */
+input[type="checkbox"]:checked {
+    background-color: lightblue;
+}
+
+/* Task 10: Select all <a> elements that are direct children of <li> and underline their text */
+li > a {
+    text-decoration: underline;
+}
+
+/* Task 11: Highlight all <li> elements that are even children of their parent element and make them bold */
+li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* Task 12: Select all <input> elements that have an attribute of type text and are not disabled and give them a gray background color */
+input[type="text"]:not([disabled]) {
+    background-color: gray;
+}
+
+/* Task 13: Select all <p> elements that are the first child elements of their parent element and set their font size to 24px */
+p:first-child {
+    font-size: 24px;
+}
+
+/* Task 14: Select the <li> element that follows the element with the .special class and make it crossed out */
+.special + li {
+    text-decoration: line-through;
+}
+
+/* Task 15: Select the first letter of each <p> element and give it a font size of 36px */
+p::first-letter {
+    font-size: 36px;
+}
+
+/* Task 16: Add ::after to each <a> element and add the content ↗ to it */
+a::after {
+    content: " ↗";
+}
