@@ -193,7 +193,7 @@
                 <p>[Brief Description]</p>
             </li>
             <li>
-                <a href="lab-task2.html">Laboratory Task 2</a>
+                <a href="/kisyr/lab_task_2.html">Laboratory Task 2</a>
                 <p>[Brief Description]</p>
             </li>
             <li>
