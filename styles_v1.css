@@ -47,14 +47,26 @@ header {
     width: 250px;
     background-color: #fff;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .side-widgets ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .side-widgets li {
     padding: 10px 0;
+    cursor: pointer;
+}
+
+.side-widgets .categories {
+    margin-top: 20px;
+}
+
+.side-widgets .categories li {
     cursor: pointer;
 }
 
