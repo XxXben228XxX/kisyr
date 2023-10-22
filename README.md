@@ -196,6 +196,10 @@
                 <a href="/kisyr/lab_task_2.html">Laboratory Task 2</a>
                 <p>[Brief Description]</p>
             </li>
+            <li>
+                <a href="/kisyr/lab_task_3.html">Laboratory Task 3</a>
+                <p>[Brief Description]</p>
+            </li>
         </ul>
     </section>
 </body>
