@@ -13,38 +13,55 @@ header {
     background-color: #fff;
     padding: 10px 20px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-right: 20px;
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.search-bar {
-    flex-grow: 1;
-    padding: 8px;
+.search-bar input {
     border: 1px solid #ccc;
     border-radius: 4px;
+    padding: 8px;
+    flex-grow: 1;
 }
 
-.search-button {
+.search-bar button {
     background-color: #FF0000;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 10px;
 }
 
-.container {
+.categories {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.categories ul {
+    list-style: none;
+    display: flex;
+}
+
+.categories li {
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+main {
     display: flex;
 }
 
 .side-widgets {
-    width: 250px;
+    width: 240px;
     background-color: #fff;
     padding: 20px;
     display: flex;
@@ -62,23 +79,18 @@ header {
     cursor: pointer;
 }
 
-.side-widgets .categories {
-    margin-top: 20px;
+.subscription-channels {
+    list-style: none;
+    padding-left: 0;
 }
 
-.side-widgets .categories li {
+.subscription-channels li {
     cursor: pointer;
+    padding: 5px 0;
 }
 
 .content {
     flex-grow: 1;
     padding: 20px;
     background-color: #fff;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
 }
