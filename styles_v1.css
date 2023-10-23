@@ -1,10 +1,7 @@
 /* Reset some default styles */
-body, h1, p, ul, li, button {
+body, h1, p, ul, li {
     margin: 0;
     padding: 0;
-    border: none;
-    list-style: none;
-    text-decoration: none;
 }
 
 body {
@@ -16,55 +13,56 @@ header {
     background-color: #fff;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
     align-items: center;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    margin-right: 20px;
 }
 
 .search-bar {
     display: flex;
-    align-items: center;
+    margin: 10px 0;
 }
 
 .search-bar input {
+    flex-grow: 1;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.search-button {
+.search-bar button {
     background-color: #FF0000;
     color: #fff;
+    border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.top-widget {
+.categories {
+    margin: 10px 0;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 20px;
 }
 
-.top-widget ul {
+.categories ul {
+    list-style: none;
     display: flex;
-    margin-top: 10px;
 }
 
-.top-widget li {
-    padding: 10px 20px;
+.categories li {
+    padding: 10px;
     cursor: pointer;
-}
-
-.container {
-    display: flex;
 }
 
 .side-widgets {
@@ -73,7 +71,6 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .side-widgets ul {
@@ -86,8 +83,22 @@ header {
     cursor: pointer;
 }
 
-.content {
-    flex-grow: 1;
+.channels h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.channels ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.channels li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+main {
     padding: 20px;
     background-color: #fff;
 }
