@@ -11,21 +11,18 @@ body {
 
 header {
     background-color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    padding: 10px 0;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .search {
-    flex-grow: 1;
     display: flex;
     justify-content: center;
 }
 
 .search input {
-    width: 60%;
+    width: 50%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -40,25 +37,16 @@ header {
     cursor: pointer;
 }
 
-.categories ul {
-    list-style: none;
-    display: flex;
-}
-
-.categories li {
-    margin-right: 20px;
-    cursor: pointer;
-}
-
 main {
     display: flex;
+    background-color: #fff;
     gap: 20px;
     padding: 20px;
-    background-color: #fff;
+    justify-content: space-between;
 }
 
 .side-widget {
-    width: 250px;
+    flex: 0 0 250px;
     background-color: #fff;
 }
 
@@ -76,23 +64,19 @@ main {
     flex-grow: 1;
 }
 
-.subscriptions {
-    width: 250px;
+.horizontal-buttons {
     background-color: #fff;
-    padding: 20px;
-}
-
-.subscriptions h2 {
-    font-size: 18px;
-}
-
-subscriptions ul {
-    list-style: none;
-    padding: 0;
-}
-
-subscriptions li {
     padding: 10px 0;
+}
+
+.horizontal-buttons ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.horizontal-buttons li {
     cursor: pointer;
 }
 
