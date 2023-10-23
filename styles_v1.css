@@ -13,6 +13,7 @@ header {
     background-color: #fff;
     padding: 10px 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
@@ -20,7 +21,6 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    margin-right: 20px;
 }
 
 .search-bar {
@@ -30,35 +30,17 @@ header {
     border-radius: 4px;
 }
 
-.search-button {
-    background-color: #FF0000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.categories {
-    background-color: #fff;
-    padding: 10px 20px;
-    display: flex;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-.categories ul {
+.top-categories ul {
     list-style: none;
     display: flex;
-    padding: 0;
 }
 
-.categories li {
+.top-categories li {
     margin-right: 20px;
     cursor: pointer;
 }
 
-.container {
+.content-container {
     display: flex;
 }
 
@@ -69,8 +51,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    z-index: 0;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .side-widgets ul {
@@ -83,23 +63,8 @@ header {
     cursor: pointer;
 }
 
-.channel-subscriptions {
-    margin-top: 20px;
-}
-
-.channel-subscriptions li {
-    cursor: pointer;
-}
-
-.content {
+.video-content {
     flex-grow: 1;
     padding: 20px;
     background-color: #fff;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
 }
