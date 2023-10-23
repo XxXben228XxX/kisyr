@@ -8,9 +8,11 @@
 </head>
 <body>
     <header>
-        <div class="logo">YouTube</div>
-        <input type="text" class="search-bar" placeholder="Search">
-        <nav class="top-categories">
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+        <nav class="categories">
             <ul>
                 <li>All</li>
                 <li>Games</li>
@@ -25,8 +27,8 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <nav class="side-widgets">
+    <main>
+        <section class="side-widget">
             <ul>
                 <li>Main</li>
                 <li>YouTube Shorts</li>
@@ -38,17 +40,22 @@
                 <li>Watch Later</li>
                 <li>Downloads</li>
             </ul>
-            <h3>Subscriptions</h3>
-            <ul class="channel-subscriptions">
-                <li>Channel 1</li>
-                <li>Channel 2</li>
-                <li>Channel 3</li>
-                <li>Channel 4</li>
-            </ul>
-        </nav>
-        <main class="videos">
-            <!-- Videos content goes here -->
-        </main>
-    </div>
+        </section>
+        <section class="video-content">
+            <!-- Videos would go here -->
+        </section>
+    </main>
+    <aside class="subscriptions">
+        <h2>Subscriptions</h2>
+        <ul>
+            <li>Channel 1</li>
+            <li>Channel 2</li>
+            <li>Channel 3</li>
+            <!-- List some subscribed channels -->
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2023 YouTube Clone. All rights reserved.</p>
+    </footer>
 </body>
 </html>
