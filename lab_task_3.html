@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles_v1.css">
+    <link rel="stylesheet" href="styles.css">
     <title>YouTube Clone</title>
 </head>
 <body>
     <header>
-        <div class="search-bar">
-            <input type="text" placeholder="Search">
-            <button>Search</button>
+        <div class="top-bar">
+            <div class="logo">YouTube</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+            <div class="categories">
+                <ul>
+                    <li>All</li>
+                    <li>Games</li>
+                    <li>Music</li>
+                    <li>Live</li>
+                    <li>News</li>
+                    <li>Action Adventure</li>
+                    <li>Fine Arts</li>
+                    <li>Cartoons</li>
+                    <li>Recently Downloaded</li>
+                    <li>You Watched</li>
+                </ul>
+            </div>
         </div>
-        <div class="categories">
-            <ul>
-                <li>All</li>
-                <li>Games</li>
-                <li>Music</li>
-                <li>Live</li>
-                <li>News</li>
-                <li>Action-Adventure</li>
-                <li>Fine Arts</li>
-                <li>Cartoons</li>
-                <li>Recently Downloaded</li>
-                <li>You Watched</li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <aside class="side-widgets">
+        <nav class="side-widgets">
             <ul>
                 <li>Main</li>
                 <li>YouTube Shorts</li>
@@ -41,18 +42,19 @@
                 <li>Downloads</li>
                 <li>Subscriptions</li>
             </ul>
-            <h2>Channels in Subscriptions:</h2>
-            <ul class="subscription-channels">
-                <li>Channel 1</li>
-                <li>Channel 2</li>
-                <li>Channel 3</li>
-                <li>Channel 4</li>
-                <li>Channel 5</li>
-            </ul>
-        </aside>
-        <div class="content">
-            <!-- Main content area -->
-        </div>
+            <div class="channels">
+                <h3>Channels in Subscriptions</h3>
+                <ul>
+                    <li>Channel 1</li>
+                    <li>Channel 2</li>
+                    <li>Channel 3</li>
+                    <li>Channel 4</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Main content area -->
     </main>
 </body>
 </html>
