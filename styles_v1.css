@@ -9,12 +9,12 @@ body {
     background-color: #f9f9f9;
 }
 
-header {
+.top-bar {
     background-color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -24,10 +24,10 @@ header {
 }
 
 .search-bar input {
-    width: 400px;
-    padding: 10px;
+    width: 300px;
+    padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .search-bar button {
@@ -35,67 +35,47 @@ header {
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-.top-navigation {
+.categories ul {
+    list-style: none;
     display: flex;
 }
 
-.top-navigation button {
-    background: none;
-    border: none;
+.categories li {
+    margin-right: 20px;
     cursor: pointer;
-    padding: 10px 15px;
 }
 
-.top-navigation button:hover {
-    background-color: #ccc;
-}
-
-main {
+.video-container {
     display: flex;
 }
 
-.sidebar {
+.side-widgets {
     width: 250px;
     background-color: #fff;
     padding: 20px;
 }
 
-.sidebar ul {
+.side-widgets ul {
     list-style: none;
     padding: 0;
 }
 
-.sidebar li {
+.side-widgets li {
     padding: 10px 0;
     cursor: pointer;
 }
 
-.video-content {
+.video-feed {
     flex-grow: 1;
-    padding: 20px;
-    background-color: #fff;
 }
 
-.subscriptions {
-    width: 250px;
-    background-color: #fff;
-    padding: 20px;
-}
-
-.subscriptions h2 {
-    font-size: 18px;
-}
-
-.subscriptions ul {
-    list-style: none;
-    padding: 0;
-}
-
-subscriptions li {
-    padding: 10px 0;
-    cursor: pointer;
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
