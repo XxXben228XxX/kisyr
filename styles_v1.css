@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, p, ul, li {
+body, h1, p, ul, li, div {
     margin: 0;
     padding: 0;
 }
@@ -11,54 +11,45 @@ body {
 
 header {
     background-color: #fff;
-    padding: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.search {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.search input {
-    width: 80%;
-    padding: 8px;
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.search button {
+.search-bar button {
     background-color: #FF0000;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 5px;
 }
 
-.categories {
+user-menu {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    white-space: nowrap;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    align-items: center;
 }
 
-.categories ul {
-    list-style: none;
-    display: flex;
-}
-
-.categories li {
-    margin-right: 20px;
+user-menu span {
+    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -69,25 +60,29 @@ main {
     background-color: #fff;
 }
 
-.side-widget {
+sidebar {
     width: 250px;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
 }
 
-.side-widget ul {
-    list-style: none;
-    padding: 0;
+menu, library {
+    margin-bottom: 20px;
 }
 
-.side-widget li {
+menu-item, library-item {
     padding: 10px 0;
     cursor: pointer;
 }
 
-.video-content {
+content {
     flex-grow: 1;
+}
+
+side-widget {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
 }
 
 footer {
