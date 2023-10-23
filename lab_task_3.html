@@ -7,26 +7,28 @@
     <title>YouTube Clone</title>
 </head>
 <body>
-    <header>
+    <header class="top-bar">
         <div class="search-bar">
             <input type="text" placeholder="Search">
             <button>Search</button>
         </div>
-        <nav class="top-navigation">
-            <button>All</button>
-            <button>Games</button>
-            <button>Music</button>
-            <button>Live</button>
-            <button>News</button>
-            <button>Action Adventure</button>
-            <button>Fine Arts</button>
-            <button>Cartoons</button>
-            <button>Recently Downloaded</button>
-            <button>You Watched</button>
+        <nav class="categories">
+            <ul>
+                <li>All</li>
+                <li>Games</li>
+                <li>Music</li>
+                <li>Live</li>
+                <li>News</li>
+                <li>Action Adventure</li>
+                <li>Art</li>
+                <li>Cartoons</li>
+                <li>Recently Downloaded</li>
+                <li>You Watched</li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <aside class="sidebar">
+    <main class="video-container">
+        <aside class="side-widgets">
             <ul>
                 <li>Main</li>
                 <li>YouTube Shorts</li>
@@ -37,20 +39,16 @@
                 <li>Your Videos</li>
                 <li>Watch Later</li>
                 <li>Downloads</li>
+                <li>Subscribed Channels</li>
+                <!-- List of subscribed channels -->
             </ul>
         </aside>
-        <section class="video-content">
+        <section class="video-feed">
             <!-- Videos would go here -->
         </section>
     </main>
-    <aside class="subscriptions">
-        <h2>Subscribed Channels</h2>
-        <ul>
-            <li>Channel 1</li>
-            <li>Channel 2</li>
-            <li>Channel 3</li>
-            <!-- List some subscribed channels -->
-        </ul>
-    </aside>
+    <footer class="footer">
+        <p>&copy; 2023 YouTube Clone. All rights reserved.</p>
+    </footer>
 </body>
 </html>
