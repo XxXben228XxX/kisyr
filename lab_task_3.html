@@ -7,14 +7,28 @@
     <title>YouTube Clone</title>
 </head>
 <body>
-    <header class="top-bar">
-        <div class="search-container">
+    <header>
+        <div class="search">
             <input type="text" placeholder="Search">
             <button>Search</button>
         </div>
     </header>
-    <main class="content">
-        <nav class="side-widget">
+    <nav class="categories">
+        <ul>
+            <li>All</li>
+            <li>Games</li>
+            <li>Music</li>
+            <li>Live</li>
+            <li>News</li>
+            <li>Action-Adventure</li>
+            <li>Art</li>
+            <li>Cartoons</li>
+            <li>Recently Downloaded</li>
+            <li>You've Watched</li>
+        </ul>
+    </nav>
+    <main>
+        <section class="side-widget">
             <ul>
                 <li>Main</li>
                 <li>YouTube Shorts</li>
@@ -26,34 +40,19 @@
                 <li>Watch Later</li>
                 <li>Downloads</li>
             </ul>
-            <h2>Subscriptions</h2>
-            <ul class="subscriptions-list">
-                <li>Channel 1</li>
-                <li>Channel 2</li>
-                <li>Channel 3</li>
-                <!-- List some subscribed channels -->
-            </ul>
-        </nav>
+        </section>
         <section class="video-content">
             <!-- Videos would go here -->
         </section>
     </main>
-    <nav class="horizontal-nav">
+    <section class="subscriptions">
+        <h2>Subscriptions</h2>
         <ul>
-            <li>All</li>
-            <li>Games</li>
-            <li>Music</li>
-            <li>Live</li>
-            <li>News</li>
-            <li>Action Adventure</li>
-            <li>Fine Arts</li>
-            <li>Cartoons</li>
-            <li>Recently Downloaded</li>
-            <li>You Watched</li>
+            <li>Channel 1</li>
+            <li>Channel 2</li>
+            <li>Channel 3</li>
+            <!-- List some subscribed channels -->
         </ul>
-    </nav>
-    <footer>
-        <p>&copy; 2023 YouTube Clone. All rights reserved.</p>
-    </footer>
+    </section>
 </body>
 </html>
