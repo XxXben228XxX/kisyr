@@ -18,35 +18,36 @@ header {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.search {
+.search-bar {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
 }
 
-.search input {
-    padding: 8px;
+.search-bar input {
+    width: 600px;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
-.search button {
+.search-bar button {
     background-color: #FF0000;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 20px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
 .categories ul {
     list-style: none;
     display: flex;
+    gap: 10px;
+    font-weight: bold;
 }
 
 .categories li {
-    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -74,26 +75,6 @@ main {
 
 .video-content {
     flex-grow: 1;
-}
-
-.subscriptions {
-    width: 250px;
-    background-color: #fff;
-    padding: 20px;
-}
-
-.subscriptions h2 {
-    font-size: 18px;
-}
-
-subscriptions ul {
-    list-style: none;
-    padding: 0;
-}
-
-subscriptions li {
-    padding: 10px 0;
-    cursor: pointer;
 }
 
 footer {
