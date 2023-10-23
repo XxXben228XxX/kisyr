@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, p, ul, li, div {
+body, h1, p, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -9,83 +9,85 @@ body {
     background-color: #f9f9f9;
 }
 
-header {
+.top-bar {
     background-color: #fff;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    justify-content: center;
+    padding: 20px 0;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.search-bar {
+.search-container {
+    width: 50%;
     display: flex;
 }
 
-.search-bar input {
-    padding: 5px;
+.search-container input {
+    flex-grow: 1;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.search-bar button {
+.search-container button {
     background-color: #FF0000;
     color: #fff;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 5px;
 }
 
-user-menu {
+.content {
     display: flex;
-    align-items: center;
-}
-
-user-menu span {
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-main {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
     background-color: #fff;
 }
 
-sidebar {
+.side-widget {
     width: 250px;
     background-color: #fff;
     padding: 20px;
 }
 
-menu, library {
-    margin-bottom: 20px;
+.side-widget ul, .subscriptions-list {
+    list-style: none;
+    padding: 0;
 }
 
-menu-item, library-item {
+.side-widget li {
     padding: 10px 0;
     cursor: pointer;
 }
 
-content {
+.subscriptions h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.subscriptions-list li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.video-content {
     flex-grow: 1;
 }
 
-side-widget {
-    width: 250px;
+.horizontal-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
 }
 
-footer {
+.horizontal-nav li {
+    cursor: pointer;
+}
+
+.footer {
     background-color: #333;
     color: #fff;
     text-align: center;
