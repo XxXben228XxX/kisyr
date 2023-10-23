@@ -9,28 +9,28 @@ body {
     background-color: #f9f9f9;
 }
 
-.top-bar {
+header {
     background-color: #fff;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.search-bar {
+.search {
+    flex-grow: 1;
     display: flex;
-    align-items: center;
 }
 
-.search-bar input {
-    width: 300px;
+.search input {
+    width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.search-bar button {
+.search button {
     background-color: #FF0000;
     color: #fff;
     border: none;
@@ -49,31 +49,53 @@ body {
     cursor: pointer;
 }
 
-.video-container {
+main {
     display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
 }
 
-.side-widgets {
+.side-widget {
+    width: 250px;
+    background-color: #fff;
+}
+
+.side-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-widget li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.video-content {
+    flex-grow: 1;
+}
+
+.subscriptions {
     width: 250px;
     background-color: #fff;
     padding: 20px;
 }
 
-.side-widgets ul {
+.subscriptions h2 {
+    font-size: 18px;
+}
+
+.subscriptions ul {
     list-style: none;
     padding: 0;
 }
 
-.side-widgets li {
+subscriptions li {
     padding: 10px 0;
     cursor: pointer;
 }
 
-.video-feed {
-    flex-grow: 1;
-}
-
-.footer {
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
