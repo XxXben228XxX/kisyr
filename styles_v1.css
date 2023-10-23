@@ -13,8 +13,8 @@ header {
     background-color: #fff;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,14 +33,16 @@ header {
 .top-categories ul {
     list-style: none;
     display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
 .top-categories li {
-    margin-right: 20px;
     cursor: pointer;
 }
 
-.content-container {
+.container {
     display: flex;
 }
 
@@ -63,8 +65,24 @@ header {
     cursor: pointer;
 }
 
-.video-content {
+.channel-subscriptions {
+    margin-top: 20px;
+}
+
+.channel-subscriptions li {
+    cursor: pointer;
+}
+
+.videos {
     flex-grow: 1;
     padding: 20px;
     background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .top-categories {
+        flex-direction: column;
+        padding-left: 0;
+        text-align: center;
+    }
 }
