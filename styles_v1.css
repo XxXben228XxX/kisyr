@@ -13,13 +13,20 @@ header {
     background-color: #fff;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.search input {
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+}
+
+.search input {
+    width: 80%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -38,7 +45,6 @@ header {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
 }
 
 .categories li {
@@ -72,13 +78,13 @@ main {
     flex-grow: 1;
 }
 
-subscriptions {
+.subscriptions {
     width: 250px;
     background-color: #fff;
     padding: 20px;
 }
 
-subscriptions h2 {
+.subscriptions h2 {
     font-size: 18px;
 }
 
@@ -90,4 +96,11 @@ subscriptions ul {
 subscriptions li {
     padding: 10px 0;
     cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
