@@ -61,19 +61,18 @@ main {
     background-color: #fff;
 }
 
-.side-widget {
-    width: 250px;
-    background-color: #fff;
-}
-
 .side-widget ul {
-    list-style: none;
-    padding: 0;
+    margin-top: 32px; /* Add this line to move the ul content down by 32 pixels */
 }
 
-.side-widget li {
-    padding: 10px 0;
-    cursor: pointer;
+/* Assuming this is how your button styles look */
+.side-widget ul li {
+    list-style: none;
+}
+
+.side-widget ul li a {
+    text-decoration: none;
+    color: #333;
 }
 
 .video-content {
