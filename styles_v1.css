@@ -42,6 +42,7 @@ header {
     justify-content: center; /* Center the categories horizontally */
     align-items: center; /* Center the categories vertically */
     flex-direction: row;
+    white-space: nowrap;
 }
 
 .categories ul {
