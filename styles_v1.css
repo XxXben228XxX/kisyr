@@ -38,8 +38,7 @@ header {
 }
 
 .categories {
-    list-style: none;
-    display: flex;
+    display: flex; /* Display the categories in a row */
     justify-content: center; /* Center the categories horizontally */
     align-items: center; /* Center the categories vertically */
 }
@@ -48,7 +47,11 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 16px;
+}
+
+.categories li {
+    margin-right: 20px; /* Add spacing between the categories */
+    cursor: pointer;
 }
 .search input {
     width: 70%;
@@ -63,11 +66,6 @@ header {
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
-    cursor: pointer;
-}
-
-.categories li {
-    margin-right: 20px;
     cursor: pointer;
 }
 
