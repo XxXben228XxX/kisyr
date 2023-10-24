@@ -11,26 +11,28 @@ body {
 
 header {
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-right: 20px;
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.search-bar {
-    flex-grow: 1;
+.search input {
+    width: 80%;
     padding: 8px;
-    border: 1px solid ⁠ccc;
+    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.search-button {
+.search button {
     background-color: #FF0000;
     color: #fff;
     border: none;
@@ -39,54 +41,61 @@ header {
     cursor: pointer;
 }
 
-.top-categories {
-    margin-left: 20px;
-}
-
-.top-categories ul {
+.categories ul {
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 
-.top-categories li {
+.categories li {
     margin-right: 20px;
     cursor: pointer;
 }
 
-.container {
+main {
     display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
 }
 
-.side-widgets {
+.side-widget {
     width: 250px;
     background-color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
-.side-widgets ul {
+.side-widget ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
 
-.side-widgets li {
+.side-widget li {
     padding: 10px 0;
     cursor: pointer;
 }
 
-.channel-subscriptions {
-    margin-top: 20px;
-}
-.channel-subscriptions li {
-    cursor: pointer;
+.video-content {
+    flex-grow: 1;
 }
 
-.content {
-    flex-grow: 1;
-    padding: 20px;
+.subscriptions {
+    width: 250px;
     background-color: #fff;
+    padding: 20px;
+}
+
+.subscriptions h2 {
+    font-size: 18px;
+}
+
+subscriptions ul {
+    list-style: none;
+    padding: 0;
+}
+
+subscriptions li {
+    padding: 10px 0;
+    cursor: pointer;
 }
 
 footer {
