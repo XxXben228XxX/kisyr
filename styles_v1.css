@@ -11,92 +11,82 @@ body {
 
 header {
     background-color: #fff;
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
-.search input {
-    width: 80%;
+.search-bar {
+    flex-grow: 1;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid ⁠ccc;
     border-radius: 4px;
 }
 
-.search button {
+.search-button {
     background-color: #FF0000;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 40px;
 }
 
-.categories ul {
+.top-categories {
+    margin-left: 20px;
+}
+
+.top-categories ul {
     list-style: none;
     display: flex;
-    justify-content: center;
 }
 
-.categories li {
+.top-categories li {
     margin-right: 20px;
     cursor: pointer;
 }
 
-main {
+.container {
     display: flex;
-    gap: 20px;
-    padding: 20px;
-    background-color: #fff;
 }
 
-.side-widget ul {
-    margin-top: 300px; /* Add this line to move the ul content down by 32 pixels */
-}
-
-/* Assuming this is how your button styles look */
-.side-widget ul li {
-    list-style: none;
-}
-
-.side-widget ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-.video-content {
-    flex-grow: 1;
-}
-
-.subscriptions {
+.side-widgets {
     width: 250px;
     background-color: #fff;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.subscriptions h2 {
-    font-size: 18px;
-}
-
-subscriptions ul {
+.side-widgets ul {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
 }
 
-subscriptions li {
+.side-widgets li {
     padding: 10px 0;
     cursor: pointer;
+}
+
+.channel-subscriptions {
+    margin-top: 20px;
+}
+.channel-subscriptions li {
+    cursor: pointer;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
 }
 
 footer {
