@@ -62,7 +62,7 @@ main {
 }
 
 .side-widget ul {
-    margin-top: 32px; /* Add this line to move the ul content down by 32 pixels */
+    margin-top: 300px; /* Add this line to move the ul content down by 32 pixels */
 }
 
 /* Assuming this is how your button styles look */
