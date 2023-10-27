@@ -1,18 +1,10 @@
-/* Reset CSS */
-body, h1, p, ul, li, input, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Add new styles and improvements */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    line-height: 1.6;
 }
 
-/* Header Styles */
-header {
+.header {
     background-color: #fff;
     padding: 20px;
     display: flex;
@@ -21,6 +13,7 @@ header {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Add new styles for the search bar */
 .search {
     display: flex;
     justify-content: center;
@@ -28,23 +21,7 @@ header {
     width: 100%;
 }
 
-.search input {
-    width: 70%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.search button {
-    background-color: #FF0000;
-    color: #fff;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Categories Styles */
+/* Add new styles for the categories */
 .categories {
     display: flex;
     justify-content: center;
@@ -63,16 +40,31 @@ header {
 .categories li {
     margin-right: 20px;
     cursor: pointer;
-    color: #555;
+    font-weight: bold; /* New style */
+    text-transform: uppercase; /* New style */
+}
+
+/* Add new styles for the search input and button */
+.search input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* New style */
+}
+
+.search button {
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
     font-weight: bold;
-    transition: color 0.3s;
+    font-size: 14px;
 }
 
-.categories li:hover {
-    color: #FF0000;
-}
-
-/* Main Content Styles */
+/* Add new styles for the main content */
 main {
     display: flex;
     gap: 20px;
@@ -83,25 +75,21 @@ main {
 .side-widget {
     width: 250px;
     background-color: #fff;
-    padding: 20px;
-    border-right: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* New style */
 }
 
-.video-content {
-    flex-grow: 1;
-}
-
+/* Add new styles for the subscription list */
 .subscriptions {
     width: 250px;
     background-color: #fff;
     padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Subscriptions Styles */
 .subscriptions h2 {
     font-size: 18px;
-    color: #333;
-    margin-bottom: 16px;
+    font-weight: bold; /* New style */
+    margin-bottom: 10px; /* New style */
 }
 
 subscriptions ul {
@@ -112,18 +100,20 @@ subscriptions ul {
 subscriptions li {
     padding: 10px 0;
     cursor: pointer;
-    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; /* New style */
 }
 
-subscriptions li:hover {
-    color: #FF0000;
-}
-
-/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+/* Add new styles for footer text */
+footer p {
     font-size: 14px;
 }
