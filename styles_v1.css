@@ -1,13 +1,17 @@
-body, h1, p, ul, li {
+/* Reset CSS */
+body, h1, p, ul, li, input, button {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
+    line-height: 1.6;
 }
 
+/* Header Styles */
 header {
     background-color: #fff;
     padding: 20px;
@@ -17,18 +21,30 @@ header {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-}
-
 .search {
     display: flex;
-    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+.search input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search button {
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Categories Styles */
 .categories {
     display: flex;
     justify-content: center;
@@ -47,26 +63,16 @@ header {
 .categories li {
     margin-right: 20px;
     cursor: pointer;
-    color: #555; /* New style: Change category text color */
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-.search input {
-    width: 70%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.categories li:hover {
+    color: #FF0000;
 }
 
-.search button {
-    background-color: #FF0000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold; /* New style: Make button text bold */
-}
-
+/* Main Content Styles */
 main {
     display: flex;
     gap: 20px;
@@ -76,19 +82,9 @@ main {
 
 .side-widget {
     width: 250px;
-    background-color: #f0f0f0; /* New style: Change sidebar background color */
+    background-color: #fff;
     padding: 20px;
-}
-
-.side-widget ul {
-    list-style: none;
-    padding: 0;
-}
-
-.side-widget li {
-    padding: 10px 0;
-    cursor: pointer;
-    color: #777; /* New style: Change sidebar item text color */
+    border-right: 1px solid #ccc;
 }
 
 .video-content {
@@ -97,13 +93,15 @@ main {
 
 .subscriptions {
     width: 250px;
-    background-color: #f0f0f0;
+    background-color: #fff;
     padding: 20px;
 }
 
+/* Subscriptions Styles */
 .subscriptions h2 {
     font-size: 18px;
-    color: #333; /* New style: Change subscription header text color */
+    color: #333;
+    margin-bottom: 16px;
 }
 
 subscriptions ul {
@@ -114,12 +112,18 @@ subscriptions ul {
 subscriptions li {
     padding: 10px 0;
     cursor: pointer;
-    color: #555; /* New style: Change subscription item text color */
+    color: #444;
 }
 
+subscriptions li:hover {
+    color: #FF0000;
+}
+
+/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    font-size: 14px;
 }
