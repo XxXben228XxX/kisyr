@@ -29,26 +29,6 @@ header {
     gap: 16px;
 }
 
-.categories {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap;
-    overflow-x: auto;
-}
-
-.categories ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-}
-
-.categories li {
-    margin-right: 20px;
-    cursor: pointer;
-}
-
 .search input {
     width: 70%;
     padding: 8px;
@@ -117,3 +97,6 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Additional styles */
+/* You can add more styles here */
