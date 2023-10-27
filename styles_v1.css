@@ -1,10 +1,15 @@
-/* Add new styles and improvements */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+/* Reset default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-.header {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+header {
     background-color: #fff;
     padding: 20px;
     display: flex;
@@ -13,7 +18,6 @@ body {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Add new styles for the search bar */
 .search {
     display: flex;
     justify-content: center;
@@ -21,7 +25,18 @@ body {
     width: 100%;
 }
 
-/* Add new styles for the categories */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.search {
+    display: flex;
+    gap: 16px;
+}
+
 .categories {
     display: flex;
     justify-content: center;
@@ -40,17 +55,13 @@ body {
 .categories li {
     margin-right: 20px;
     cursor: pointer;
-    font-weight: bold; /* New style */
-    text-transform: uppercase; /* New style */
 }
 
-/* Add new styles for the search input and button */
 .search input {
     width: 70%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 14px; /* New style */
 }
 
 .search button {
@@ -60,11 +71,8 @@ body {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
 }
 
-/* Add new styles for the main content */
 main {
     display: flex;
     gap: 20px;
@@ -74,36 +82,35 @@ main {
 
 .side-widget {
     width: 250px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* New style */
-}
-
-/* Add new styles for the subscription list */
-.subscriptions {
-    width: 250px;
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.subscriptions h2 {
-    font-size: 18px;
-    font-weight: bold; /* New style */
-    margin-bottom: 10px; /* New style */
-}
-
-subscriptions ul {
+.side-widget ul {
     list-style: none;
     padding: 0;
 }
 
-subscriptions li {
+.side-widget li {
     padding: 10px 0;
     cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #333; /* New style */
+}
+
+.video-content {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video {
+    width: calc(33.33% - 20px);
+    text-align: center;
+}
+
+.video img {
+    max-width: 100%;
 }
 
 footer {
@@ -111,9 +118,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-/* Add new styles for footer text */
-footer p {
-    font-size: 14px;
 }
