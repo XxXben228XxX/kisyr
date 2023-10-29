@@ -191,8 +191,11 @@ input:focus {
 }
 
 /* Media query for hiding the sidebar on small screens */
-@media (max-width: 768px) {
-  .side-bar {
-    display: none;
-  }
+ @media (max-width: 768px) {
+    .side-bar {
+      display: none;
+    }
+    .search {
+      display: none;
+    }
 }
