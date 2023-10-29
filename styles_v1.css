@@ -22,11 +22,12 @@ body {
   padding: 15px;
 }
 
+/* Horizontal line styles */
 hr {
-   height: 1px;
-   background-color: #e5e5e5;
-   border: none;
- }
+  height: 1px;
+  background-color: #e5e5e5;
+  border: none;
+}
 
 /* Main content styles */
 main {
