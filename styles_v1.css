@@ -199,3 +199,9 @@ input:focus {
       display: none;
     }
 }
+
+  @media (max-width: 900px) {
+    .search input {
+      width: 25rem;
+    }
+  }
