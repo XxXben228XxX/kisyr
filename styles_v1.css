@@ -1,91 +1,101 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+/* Reset default styles for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Set the font-family for the entire page */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* header section*/
+/* Header section styles */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 15px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+}
 
+/* Main content styles */
 main {
-   height: calc(100vh - 70px);
-   display: flex;
-   background-color: #f9f9f9;
- }
+  height: calc(100vh - 70px);
+  display: flex;
+  background-color: #f9f9f9;
+}
 
+/* Search section styles */
 .search {
- display: flex;
+  display: flex;
 }
 
 .search form {
- display: flex;
- border: 1px solid #ddd;
- height: 45px;
+  display: flex;
+  border: 1px solid #ddd;
+  height: 45px;
 }
 
-/* Sidebar */ 
+/* Sidebar styles */
 .side-bar {
-    height: 100%;
-    width: 17%;
-    background-color: white;
-    overflow-y: hidden;
-  } 
+  height: 100%;
+  width: 17%;
+  background-color: white;
+  overflow-y: hidden;
+}
 
+/* Styles for the left section in the header */
 .left {
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .left #menu {
- padding: 0 7px;
- cursor: pointer;
+  padding: 0 7px;
+  cursor: pointer;
 }
 
+/* Styles for the search input */
 .search input {
   width: 600px;
-  padding:10px;
+  padding: 10px;
   border: 0;
   height: 100%;
-  border-radius: 2px 0 0 2px
+  border-radius: 2px 0 0 2px;
 }
 
-input:focus {
+/* Styles for the search input when focused */
+.search input:focus {
   outline: none;
   border: 1px solid #ddd;
 }
 
+/* Styles for the search button */
 .search button {
   height: 100%;
   width: 60px;
   border: none;
 }
- 
+
+/* Styles for the microphone icon */
 .mic {
   margin-top: 10px;
 }
 
-  .material-icons {
-    color: rgb(100, 100, 100);
-    padding: 0 7px;
-    cursor: pointer;
-  }
+/* Styles for material icons */
+.material-icons {
+  color: rgb(100, 100, 100);
+  padding: 0 7px;
+  cursor: pointer;
+}
 
+/* Media query for hiding the sidebar on small screens */
 @media (max-width: 768px) {
-    .side-bar {
-      display: none;
-    }
+  .side-bar {
+    display: none;
   }
-
-
+}
