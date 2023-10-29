@@ -22,6 +22,12 @@ body {
   padding: 15px;
 }
 
+hr {
+   height: 1px;
+   background-color: #e5e5e5;
+   border: none;
+ }
+
 /* Main content styles */
 main {
   height: calc(100vh - 70px);
