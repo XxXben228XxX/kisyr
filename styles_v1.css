@@ -1,121 +1,39 @@
-/* Reset default styles */
-body, h1, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
-}
-
-header {
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-}
-
-.search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
-}
-
-.search {
-    display: flex;
-    gap: 16px;
-}
-
-.categories {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap;
-    overflow-x: auto;
-}
-
-.categories ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-}
-
-.categories li {
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.search input {
-    width: 70%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.search button {
-    background-color: #FF0000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
+    height: 60px;
+    padding: 15px;
 }
 
 main {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    background-color: #fff;
+   height: calc(100vh - 70px);
+   display: flex;
+   background-color: #f9f9f9;
 }
 
-.side-widget {
-    width: 250px;
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.side-widget ul {
-    list-style: none;
-    padding: 0;
+.side-bar {
+    height: 100%;
+    width: 17%;
+    background-color: white;
+    overflow-y: hidden;
 }
 
-.side-widget li {
-    padding: 10px 0;
-    cursor: pointer;
-}
+@media (max-width: 768px) {
+    .side-bar {
+      display: none;
+    }
+  }
 
-.video-content {
-    flex-grow: 1;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.video {
-    width: calc(33.33% - 20px);
-    text-align: center;
-}
-
-.video img {
-    max-width: 100%;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
