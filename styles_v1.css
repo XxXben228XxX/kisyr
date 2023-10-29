@@ -69,7 +69,7 @@ main {
 }
 
 /* Styles for the search input when focused */
-.search input:focus {
+input:focus {
   outline: none;
   border: 1px solid #ddd;
 }
