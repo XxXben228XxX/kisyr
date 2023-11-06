@@ -1,48 +1,72 @@
-/* Reset default margin and padding for the entire page */
-body, h1, p {
+body {
+  font-family: 'YourCustomFont', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Style the header */
-.header-title {
+header {
+  background-color: #444;
+  color: #fff;
   text-align: center;
+  padding: 10px 0;
+}
+
+.header-title {
+  font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 10px 0;
 }
 
-/* Style the main content area */
-.weekly-plan {
-  margin: 20px auto;
-  border-collapse: collapse;
+main {
+  display: flex;
 }
 
-/* Style the days of the week */
+.left-section {
+  width: 70%;
+  padding: 20px;
+}
+
+.top-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
 .day {
+  width: 31%;
   text-align: center;
-  padding: 8px 12px;
-  border: 1px solid #000;
-  font-size: 18px;
 }
 
-/* Style the weekend days */
-.weekend .day {
-  background-color: #f2f2f2;
+.day-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
-/* Style the working days */
-.workdays .day {
-  background-color: #fff;
-}
-
-/* Style the Sunday and Saturday as one block */
-.sunday, .saturday {
-  background-color: #f2f2f2;
-}
-
-/* Style additional content in the footer */
-.footer-text {
-  text-align: center;
+.dotted-lines {
+  border-top: 1px dotted #000;
   margin: 10px 0;
 }
+
+.text-input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.right-section {
+  width: 30%;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.right-section .day {
+  text-align: center;
+}
+
