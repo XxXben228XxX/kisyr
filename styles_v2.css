@@ -26,26 +26,16 @@ main {
   padding: 20px;
 }
 
-.top-block {
-  display: flex;
-  justify-content: space-between;
+.right-section {
+  width: 30%;
+  padding: 20px;
+  background-color: #eee;
 }
 
-.bottom-block {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.day {
-  width: 31%;
-  text-align: center;
-}
-
-.day-label {
+.section-title {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .dotted-lines {
@@ -55,18 +45,7 @@ main {
 
 .text-input {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   border: none;
   border-bottom: 1px solid #000;
 }
-
-.right-section {
-  width: 30%;
-  padding: 20px;
-  background-color: #eee;
-}
-
-.right-section .day {
-  text-align: center;
-}
-
