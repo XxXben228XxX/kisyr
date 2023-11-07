@@ -11,6 +11,17 @@ body {
   margin: 20px 0;
 }
 
+.left-section {
+  float: left;
+  width: 40%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.right-section {
+  float: left;
+  width: 60%; /* Adjust the width as needed */
+}
+
 .weekly-plan {
   width: 100%;
   border-collapse: collapse;
@@ -23,13 +34,6 @@ body {
 .day {
   border: 1px solid #ddd;
   padding: 10px;
-  position: relative;
-}
-
-.day-textarea {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
 }
 
 .text-input {
@@ -39,33 +43,9 @@ body {
   overflow: hidden;
 }
 
-.section-block {
-  border: 1px solid #ddd;
-  position: relative;
-}
-
 .section-title {
   text-align: center;
   font-size: 16px;
-}
-
-.top-block,
-.middle-block,
-.bottom-block {
-  position: absolute;
-  left: 10px;
-}
-
-.top-block {
-  top: 10px;
-}
-
-.middle-block {
-  top: 50px;
-}
-
-.bottom-block {
-  top: 100px;
 }
 
 .dotted-lines {
