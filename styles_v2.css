@@ -26,7 +26,12 @@ main {
   border-collapse: collapse;
   width: 30%;
   margin-right: 20px;
-  float: right; /* Align the table to the right */
+  float: left; /* Added to make the table float to the left */
+}
+
+.days {
+  background-color: #ccc;
+  font-weight: bold;
 }
 
 .days .day {
@@ -36,18 +41,22 @@ main {
 }
 
 .left-section {
-  width: 70%;
+  width: 50%;
   padding: 20px;
 }
 
-.days .day, .days .day[rowsapn="2"] {
-  background-color: #ccc;
-  font-weight: bold;
+.weekly-plan + .top-block,
+.weekly-plan + .middle-block,
+.weekly-plan + .bottom-block {
+  /* Use the "+" selector to target elements immediately following the table */
+  margin-top: 10px;
 }
 
-.weekend-block {
-  width: 30%;
-  padding: 20px;
+.top-block,
+.middle-block,
+.bottom-block {
+  width: 100%; /* Make these blocks full width */
+  float: left; /* Float the blocks to the left */
 }
 
 .section-title {
