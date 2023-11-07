@@ -21,13 +21,31 @@ main {
   display: flex;
 }
 
+.weekly-plan {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.days {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.days .day {
+  padding: 8px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
 .left-section {
-  width: 70%;
+  width: 50%;
   padding: 20px;
 }
 
 .right-section {
-  width: 30%;
+  width: 20%;
   padding: 20px;
   background-color: #eee;
 }
