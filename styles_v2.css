@@ -16,13 +16,10 @@ body {
   border-collapse: collapse;
 }
 
-.days {
-  text-align: center;
-}
-
 .section-block {
   border: 1px solid #ddd;
   position: relative;
+  width: 50%;
 }
 
 .section-title {
