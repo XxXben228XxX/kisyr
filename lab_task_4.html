@@ -19,12 +19,12 @@
     }
     .weekly-plan td {
       border: 2px solid black; /* Add borders to table cells */
-      vertical-align: middle; /* Align text entry cells vertically in the center */
+      display: flex;
+      align-items: center;
     }
     .text-input {
-      width: 100%; /* Set the width of text inputs to fill the entire cell */
-      box-sizing: border-box; /* Include padding and borders in the width calculation */
-      padding: 5px; /* Add some padding to prevent overlapping with table borders */
+      width: 99%; /* Set the width of text inputs to fill most of the cell */
+      margin: 0; /* Remove margin to center text inputs within cells */
     }
   </style>
   <title>Weekly Plan</title>
@@ -75,7 +75,7 @@
                 </div>
               </div>
             </div>
-            <div class="days-row" style="height: 50%;">
+            <div class "days-row" style="height: 50%;">
               <div class="day">
                 Thursday
                 <div class="day-textarea">
