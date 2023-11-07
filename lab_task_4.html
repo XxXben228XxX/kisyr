@@ -15,31 +15,7 @@
   </header>
   <main>
     <div class="left-section">
-      <div class="blocks">
-        <div class="block">
-          <h2 class="section-title">Top 3 Goals</h2>
-          <div class="dotted-lines"></div>
-          <textarea class="text-input" rows="3"></textarea>
-        </div>
-        <div class="block">
-          <h2 class="section-title">Everything Else</h2>
-          <div class="dotted-lines"></div>
-          <textarea class="text-input" rows="11"></textarea>
-        </div>
-        <div class="block">
-          <h2 class="section-title">Next Week</h2>
-          <div class="dotted-lines"></div>
-          <textarea class="text-input" rows="3"></textarea>
-        </div>
-      </div>
-    </div>
-    <div class="right-section">
       <table class="weekly-plan">
-        <tr class="days">
-          <td class="day">Top 3 Goals</td>
-          <td class="day">Everything Else</td>
-          <td class="day">Next Week</td>
-        </tr>
         <tr class="days">
           <td class="day">Monday</td>
           <td class="day">Tuesday</td>
@@ -48,12 +24,27 @@
         <tr class="days">
           <td class="day">Thursday</td>
           <td class="day">Friday</td>
-          <td class="day weekend">
-            <div class="half-day">Saturday</div>
-            <div class="half-day">Sunday</div>
-          </td>
+          <td class="day" rowspan="2">Saturday / Sunday</td>
+        </tr>
+        <tr class="days">
+          <td class="day" colspan="2">Sunday</td>
         </tr>
       </table>
+      <div class="top-block">
+        <h2 class="section-title">Top 3 Goals</h2>
+        <div class="dotted-lines"></div>
+        <textarea class="text-input" rows="3"></textarea>
+      </div>
+      <div class="middle-block">
+        <h2 class="section-title">Everything Else</h2>
+        <div class="dotted-lines"></div>
+        <textarea class="text-input" rows="11"></textarea>
+      </div>
+      <div class="bottom-block">
+        <h2 class "section-title">Next Week</h2>
+        <div class="dotted-lines"></div>
+        <textarea class="text-input" rows="3"></textarea>
+      </div>
     </div>
   </main>
 </body>
