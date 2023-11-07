@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="styles_v2.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=YourCustomFont" rel="stylesheet">
-  <title>Weekly Plan</title>
   <style>
     html, body {
       height: 100%;
@@ -20,9 +19,12 @@
     }
     .weekly-plan td {
       border: 2px solid black; /* Add borders to table cells */
+      text-align: center; /* Center-align text horizontally */
+      vertical-align: middle; /* Center-align text vertically */
     }
     .text-input {
-      width: 99%; /* Set the width of text inputs to fill most of the cell */
+      width: 100%; /* Set the width of text inputs to cover the entire cell */
+      border: none; /* Remove borders from text inputs */
     }
   </style>
 </head>
@@ -46,7 +48,7 @@
           </div>
           <div class="bottom-block">
             <h2 class="section-title">Next Week</h2>
-            <div class "dotted-lines"></div>
+            <div class="dotted-lines"></div>
             <textarea class="text-input" rows="3" type="string"></textarea>
           </div>
         </td>
