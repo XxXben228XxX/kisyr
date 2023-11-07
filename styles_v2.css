@@ -21,20 +21,47 @@ main {
   display: flex;
 }
 
-.weekly-plan {
-  border: 1px solid #000;
-  border-collapse: collapse;
+.right-section {
+  width: 40%;
+  padding: 20px;
 }
 
-.days .day {
+.weekly-plan {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.days {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.day {
   padding: 8px;
   border: 1px solid #000;
   text-align: center;
 }
 
+.half-day {
+  padding: 4px;
+  text-align: center;
+}
+
 .left-section {
-  width: 50%;
+  width: 60%;
   padding: 20px;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.block {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #000;
 }
 
 .section-title {
