@@ -23,11 +23,14 @@
       text-align: center; /* Align content horizontally in the center of the cell */
     }
     .text-input {
-      width: 90%; /* Set the width of text inputs to fit inside the cell */
-      height: 90%; /* Set the height of text inputs to fit inside the cell */
+      width: 99%; /* Set the width of text inputs to fit inside the cell */
+      height: 95%; /* Set the height of text inputs to fit inside the cell */
       margin: 0; /* Remove margin */
       padding: 5px; /* Add a small amount of padding for better appearance */
       box-sizing: border-box; /* Include padding in the width/height calculations */
+    }
+    .middle-block .text-input {
+      height: 90%; /* Reduce the height to make room for the dotted lines */
     }
   </style>
 </head>
@@ -51,7 +54,7 @@
           </div>
           <div class="bottom-block">
             <h2 class="section-title">Next Week</h2>
-            <div class="dotted-lines"></div>
+            <div class "dotted-lines"></div>
             <textarea class="text-input" rows="3" type="string"></textarea>
           </div>
         </td>
