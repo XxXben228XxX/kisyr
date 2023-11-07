@@ -16,14 +16,9 @@ body {
   border-collapse: collapse;
 }
 
-.days {
-  text-align: center;
-}
-
 .section-block {
   border: 1px solid #ddd;
   position: relative;
-  width: 50%; /* Reduce left part by half */
 }
 
 .section-title {
@@ -36,7 +31,6 @@ middle-block,
 bottom-block {
   position: absolute;
   left: 10px;
-  width: calc(100% - 20px);
 }
 
 .top-block {
@@ -44,11 +38,37 @@ bottom-block {
 }
 
 .middle-block {
-  top: 50px;
+  top: 60px;
 }
 
 .bottom-block {
-  top: 100px;
+  top: 110px;
+}
+
+.days {
+  text-align: center;
+}
+
+.days-table {
+  display: table;
+  width: 100%;
+}
+
+.days-row {
+  display: table-row;
+}
+
+.day {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+}
+
+.day-textarea {
+  position: absolute;
+  left: 10px;
+  bottom: -10px;
+  width: 90%;
 }
 
 .dotted-lines {
