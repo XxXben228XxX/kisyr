@@ -11,40 +11,13 @@ body {
   margin: 20px 0;
 }
 
-.table-wrapper {
-  display: flex;
-}
-
-.left-section {
-  width: 30%;
-}
-
 .weekly-plan {
-  width: 70%;
+  width: 100%;
   border-collapse: collapse;
 }
 
 .days {
   text-align: center;
-}
-
-.day {
-  border: 1px solid #ddd;
-  padding: 10px;
-  position: relative;
-}
-
-.day-textarea {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-
-.text-input {
-  width: 100%;
-  border: none;
-  resize: none;
-  overflow: hidden;
 }
 
 .section-block {
@@ -58,8 +31,8 @@ body {
 }
 
 .top-block,
-.middle-block,
-.bottom-block {
+middle-block,
+bottom-block {
   position: absolute;
   left: 10px;
 }
@@ -79,4 +52,11 @@ body {
 .dotted-lines {
   border-top: 1px dotted #ddd;
   margin: 10px 0;
+}
+
+.text-input {
+  width: 100%;
+  border: none;
+  resize: none;
+  overflow: hidden;
 }
