@@ -34,11 +34,14 @@ body {
 
 .text-input {
   width: 100%;
+  border: none;
+  resize: none;
+  overflow: hidden;
 }
 
 .section-block {
   border: 1px solid #ddd;
-  position: relative; /* Add this to allow absolute positioning within */
+  position: relative;
 }
 
 .section-title {
@@ -50,7 +53,7 @@ body {
 .middle-block,
 .bottom-block {
   position: absolute;
-  left: 10px; /* Adjust the left position as needed */
+  left: 10px;
 }
 
 .top-block {
@@ -58,11 +61,11 @@ body {
 }
 
 .middle-block {
-  top: 50px; /* Adjust the top position as needed */
+  top: 50px;
 }
 
 .bottom-block {
-  top: 100px; /* Adjust the top position as needed */
+  top: 100px;
 }
 
 .dotted-lines {
