@@ -15,11 +15,17 @@
       padding: 0;
     }
     .weekly-plan {
+      border-collapse: collapse; /* Collapse table borders */
       border: 2px solid black; /* Add a border for visibility */
       height: 100vh; /* Stretch the table's height to 100% of the viewport */
     }
-    table, tr, td {
-      height: 100%; /* Ensure table and its parent elements stretch to 100% height */
+    .weekly-plan td {
+      border: 2px solid black; /* Add borders to table cells */
+    }
+    .text-input {
+      width: 95%; /* Set the width of text inputs */
+      margin: 5px; /* Add some margin to prevent overlapping with table borders */
+      border: 2px solid black; /* Add borders to text inputs */
     }
   </style>
 </head>
