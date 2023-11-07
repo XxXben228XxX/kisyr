@@ -8,14 +8,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=YourCustomFont" rel="stylesheet">
   <title>Weekly Plan</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1 class="header-title">PLAN WEEKLY</h1>
   </header>
   <main>
-    <table class="weekly-plan">
-      <tr>
+    <table class="weekly-plan" style="height: 100%;">
+      <tr style="height: 50%;">
         <td class="section-block">
           <div class="top-block">
             <h2 class="section-title">Top 3 Goals</h2>
@@ -34,8 +41,8 @@
           </div>
         </td>
         <td class="days">
-          <div class="days-table">
-            <div class="days-row">
+          <div class="days-table" style="height: 100%;">
+            <div class="days-row" style="height: 50%;">
               <div class="day">
                 Monday
                 <div class="day-textarea">
@@ -55,21 +62,19 @@
                 </div>
               </div>
             </div>
-            <div class="days-row">
+            <div class="days-row" style="height: 50%;">
               <div class="day">
                 Thursday
                 <div class="day-textarea">
                   <textarea class="text-input" rows="3" type="string"></textarea>
                 </div>
               </div>
-              <div class "day">
+              <div class="day">
                 Friday
                 <div class="day-textarea">
                   <textarea class="text-input" rows="3" type="string"></textarea>
                 </div>
               </div>
-            </div>
-            <div class="days-row">
               <div class="day">
                 Saturday / Sunday
                 <div class="day-textarea">
