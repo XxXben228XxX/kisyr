@@ -24,13 +24,6 @@ main {
 .weekly-plan {
   border: 1px solid #000;
   border-collapse: collapse;
-  width: 30%;
-  margin-right: 20px;
-}
-
-.days {
-  background-color: #ccc;
-  font-weight: bold;
 }
 
 .days .day {
@@ -42,12 +35,6 @@ main {
 .left-section {
   width: 50%;
   padding: 20px;
-}
-
-.right-section {
-  width: 20%;
-  padding: 20px;
-  background-color: #eee;
 }
 
 .section-title {
