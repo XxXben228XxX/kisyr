@@ -19,7 +19,7 @@ body {
 .section-block {
   border: 1px solid #ddd;
   position: relative;
-  width: 50%;
+  width: 50%; /* Reduce left part by half */
 }
 
 .section-title {
@@ -32,18 +32,7 @@ middle-block,
 bottom-block {
   position: absolute;
   left: 10px;
-}
-
-.top-block {
-  top: 10px;
-}
-
-.middle-block {
-  top: 50px;
-}
-
-.bottom-block {
-  top: 100px;
+  width: 100%; /* Make all blocks the same width */
 }
 
 .dotted-lines {
@@ -56,4 +45,21 @@ bottom-block {
   border: none;
   resize: none;
   overflow: hidden;
+}
+
+.days {
+  text-align: center;
+  width: 50%; /* Reduce left part by half */
+}
+
+.day-textarea {
+  width: 100%;
+}
+
+.day {
+  padding: 10px;
+}
+
+.day textarea {
+  width: 100%;
 }
