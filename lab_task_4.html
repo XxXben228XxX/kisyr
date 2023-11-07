@@ -14,20 +14,20 @@
       padding: 0;
     }
     .weekly-plan {
-      border-collapse: collapse;
-      height: 100vh;
+      border-collapse: collapse; /* Collapse table borders */
+      height: 100vh; /* Stretch the table's height to 100% of the viewport */
     }
     .weekly-plan td {
-      border: 2px solid black;
+      border: 2px solid black; /* Add borders to table cells */
       vertical-align: middle; /* Align content vertically in the center of the cell */
       text-align: center; /* Align content horizontally in the center of the cell */
-      padding: 0; /* Remove padding */
     }
     .text-input {
-      width: 90%; /* Set the width of text inputs to fill most of the cell */
-      height: 90%; /* Set the height of text inputs to fill most of the cell */
+      width: 90%; /* Set the width of text inputs to fit inside the cell */
+      height: 90%; /* Set the height of text inputs to fit inside the cell */
       margin: 0; /* Remove margin */
       padding: 5px; /* Add a small amount of padding for better appearance */
+      box-sizing: border-box; /* Include padding in the width/height calculations */
     }
   </style>
 </head>
@@ -51,14 +51,14 @@
           </div>
           <div class="bottom-block">
             <h2 class="section-title">Next Week</h2>
-            <div class "dotted-lines"></div>
+            <div class="dotted-lines"></div>
             <textarea class="text-input" rows="3" type="string"></textarea>
           </div>
         </td>
         <td class="days">
           <div class="days-table" style="height: 100%;">
             <div class="days-row" style="height: 50%;">
-              <div class "day">
+              <div class="day">
                 Monday
                 <div class="day-textarea">
                   <textarea class="text-input" rows="3" type="string"></textarea>
@@ -78,7 +78,7 @@
               </div>
             </div>
             <div class="days-row" style="height: 50%;">
-              <div class "day">
+              <div class="day">
                 Thursday
                 <div class="day-textarea">
                   <textarea class="text-input" rows="3" type="string"></textarea>
