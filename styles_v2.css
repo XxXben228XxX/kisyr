@@ -38,11 +38,31 @@ body {
 
 .section-block {
   border: 1px solid #ddd;
+  position: relative; /* Add this to allow absolute positioning within */
 }
 
 .section-title {
   text-align: center;
   font-size: 16px;
+}
+
+.top-block,
+.middle-block,
+.bottom-block {
+  position: absolute;
+  left: 10px; /* Adjust the left position as needed */
+}
+
+.top-block {
+  top: 10px;
+}
+
+.middle-block {
+  top: 50px; /* Adjust the top position as needed */
+}
+
+.bottom-block {
+  top: 100px; /* Adjust the top position as needed */
 }
 
 .dotted-lines {
