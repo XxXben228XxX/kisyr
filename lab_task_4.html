@@ -19,14 +19,13 @@
     }
     .weekly-plan td {
       border: 2px solid black; /* Add borders to table cells */
-      text-align: center; /* Center-align text horizontally */
-      vertical-align: middle; /* Center-align text vertically */
     }
     .text-input {
-      width: 90%; /* Adjust the width to fit the cell with some padding */
-      height: 90%; /* Adjust the height to fit the cell with some padding */
-      padding: 5px; /* Add padding to ensure text is centered in the cell */
-      border: none; /* Remove borders from text inputs */
+      width: 100%; /* Set the width of text inputs to fill the entire cell */
+      height: 100%; /* Set the height of text inputs to fill the entire cell */
+      padding: 0; /* Remove padding */
+      margin: 0; /* Remove margin */
+      border: none; /* Remove borders */
     }
   </style>
 </head>
@@ -57,7 +56,7 @@
         <td class="days">
           <div class="days-table" style="height: 100%;">
             <div class="days-row" style="height: 50%;">
-              <div class="day">
+              <div class "day">
                 Monday
                 <div class="day-textarea">
                   <textarea class="text-input" rows="3" type="string"></textarea>
@@ -76,8 +75,8 @@
                 </div>
               </div>
             </div>
-            <div class "days-row" style="height: 50%;">
-              <div class="day">
+            <div class="days-row" style="height: 50%;">
+              <div class "day">
                 Thursday
                 <div class="day-textarea">
                   <textarea class="text-input" rows="3" type="string"></textarea>
