@@ -4,66 +4,48 @@ body {
   padding: 0;
 }
 
-header {
-  background-color: #444;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-}
-
 .header-title {
+  text-align: center;
   font-size: 24px;
   font-weight: bold;
-  text-transform: uppercase;
-}
-
-main {
-  display: flex;
+  margin: 20px 0;
 }
 
 .weekly-plan {
-  border: 1px solid #000;
+  width: 100%;
   border-collapse: collapse;
-  width: 30%;
-  margin-right: 20px;
-  float: right; /* Align the table to the right */
 }
 
-.days .day {
-  padding: 8px;
-  border: 1px solid #000;
+.days {
   text-align: center;
 }
 
-.left-section {
-  width: 70%;
-  padding: 20px;
+.day {
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: relative;
 }
 
-.days .day, .days .day[rowsapn="2"] {
-  background-color: <#1044744541741256766>cc;
-  font-weight: bold;
-}
-
-.weekend-block {
-  width: 30%;
-  padding: 20px;
-}
-
-.section-title {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 18px;
-}
-
-.dotted-lines {
-  border-top: 1px dotted #000;
-  margin: 10px 0;
+.day-textarea {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 .text-input {
   width: 100%;
-  padding: 10px;
-  border: none;
-  border-bottom: 1px solid #000;
+}
+
+.section-block {
+  border: 1px solid #ddd;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 16px;
+}
+
+.dotted-lines {
+  border-top: 1px dotted #ddd;
+  margin: 10px 0;
 }
