@@ -28,6 +28,7 @@
       margin: 0; /* Remove margin */
       padding: 5px; /* Add a small amount of padding for better appearance */
       box-sizing: border-box; /* Include padding in the width/height calculations */
+      white-space: pre-line; /* Preserve line breaks */
     }
     .middle-block .text-input {
       height: 90%; /* Reduce the height to make room for the dotted lines */
@@ -36,9 +37,6 @@
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <h1 class="header-title">PLAN WEEKLY</h1>
-    </div>
     <div class="left">
       <table class="weekly-plan">
         <tr style="height: 50%;">
@@ -46,17 +44,17 @@
             <div class="top-block">
               <h2 class="section-title">Top 3 Goals</h2>
               <div class="dotted-lines"></div>
-              <textarea class="text-input" rows="3" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
             <div class="middle-block">
               <h2 class="section-title">Everything Else</h2>
               <div class="dotted-lines"></div>
-              <textarea class="text-input" rows="11" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
             <div class="bottom-block">
               <h2 class="section-title">Next Week</h2>
               <div class="dotted-lines"></div>
-              <textarea class="text-input" rows="3" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
           </td>
         </tr>
@@ -68,19 +66,19 @@
           <div class="day">
             Monday
             <div class="day-textarea">
-              <textarea class="text-input" rows="11" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
           </div>
           <div class="day">
             Tuesday
             <div class="day-textarea">
-              <textarea class="text-input" rows="11" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
           </div>
           <div class="day">
             Wednesday
             <div class="day-textarea">
-              <textarea class="text-input" rows="11" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
           </div>
         </div>
@@ -88,19 +86,19 @@
           <div class="day">
             Thursday
             <div class="day-textarea">
-              <textarea class="text-input" rows="11" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
           </div>
           <div class "day">
             Friday
             <div class="day-textarea">
-              <textarea class="text-input" rows="11" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
           </div>
           <div class="day">
             Saturday / Sunday
             <div class="day-textarea">
-              <textarea class="text-input" rows="11" type="string"></textarea>
+              <div class="text-input" contenteditable="true"></div>
             </div>
           </div>
         </div>
