@@ -21,47 +21,33 @@ main {
   display: flex;
 }
 
-.right-section {
-  width: 40%;
-  padding: 20px;
-}
-
 .weekly-plan {
+  border: 1px solid #000;
   border-collapse: collapse;
-  width: 100%;
+  width: 30%;
+  margin-right: 20px;
+  float: right; /* Align the table to the right */
 }
 
-.days {
-  background-color: #ccc;
-  font-weight: bold;
-}
-
-.day {
+.days .day {
   padding: 8px;
   border: 1px solid #000;
   text-align: center;
 }
 
-.half-day {
-  padding: 4px;
-  text-align: center;
-}
-
 .left-section {
-  width: 60%;
+  width: 70%;
   padding: 20px;
 }
 
-.blocks {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.days .day, .days .day[rowsapn="2"] {
+  background-color: #ccc;
+  font-weight: bold;
 }
 
-.block {
-  background-color: #f0f0f0;
+.weekend-block {
+  width: 30%;
   padding: 20px;
-  border: 1px solid #000;
 }
 
 .section-title {
