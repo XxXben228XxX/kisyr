@@ -278,7 +278,7 @@
         <div class="vertical-buttons">
             <ul>
                 <li>
-                    <a class="button-link" href="/kiyb/task1.html">Laboratory Task 1</a>
+                    <a class="button-link" href="/kisyr/lab_task_1.html">Laboratory Task 1</a>
                     <p>[Brief Description]</p>
                 </li>
                 <li>
