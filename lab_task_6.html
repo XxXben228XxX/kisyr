@@ -10,14 +10,17 @@
         body {
             margin: 0;
             overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             height: 100vh;
+            background-image: url('https://ic.pics.livejournal.com/papa_karl0/67144658/1018533/1018533_900.jpg');
+            background-size: cover;
+            background-position: center;
         }
 
         .container {
             position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             z-index: 1;
         }
 
@@ -34,7 +37,7 @@
             border-radius: 100%;
             margin: 0 auto;
             position: relative;
-            animation: shake 1s infinite; /* Added animation property */
+            animation: shake 1s infinite;
             background: linear-gradient(
                 150deg,
                 #BA0C2F 0%,
@@ -71,30 +74,90 @@
             border: double var(--pokerball-border-size) #262122;
         }
 
+        img {
+            z-index: 2;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: moveRight 4s, moveCenter 4s 8s, moveLeft 4s 16s, moveCenter 4s 20s;
+        }
+
+        @keyframes moveRight {
+            0% {
+                transform: translateX(-50%);
+            }
+            25% {
+                transform: translateX(25%) translate(-50%, -50%);
+            }
+            50% {
+                transform: translateX(50%) translate(-50%, -50%);
+            }
+            75% {
+                transform: translateX(50%) translate(-50%, -50%);
+            }
+            100% {
+                transform: translateX(-50%) translate(-50%, -50%);
+            }
+        }
+
+        @keyframes moveCenter {
+            0%, 100% {
+                transform: translateX(-50%);
+            }
+            25% {
+                transform: translateX(0) translate(-50%, -50%);
+            }
+            50% {
+                transform: translateX(0) translate(-50%, -50%);
+            }
+            75% {
+                transform: translateX(0) translate(-50%, -50%);
+            }
+        }
+
+        @keyframes moveLeft {
+            0% {
+                transform: translateX(-50%) translate(-50%, -50%);
+            }
+            25% {
+                transform: translateX(-50%) translate(-50%, -50%);
+            }
+            50% {
+                transform: translateX(-50%) translate(-50%, -50%);
+            }
+            75% {
+                transform: translateX(-75%) translate(-50%, -50%);
+            }
+            100% {
+                transform: translateX(-50%) translate(-50%, -50%);
+            }
+        }
+
+
         @keyframes shake {
             20% {
                 transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
             }
-
             40% {
                 transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 5deg);
             }
-
             50% {
                 transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -10deg);
             }
-
             60% {
                 transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
             }
         }
+
+
     </style>
 </head>
 <body>
     <div class="container">
         <div class="pokerball"></div>
     </div>
-    <img src="https://arnavprasad.me/img/projects/shiny_hunter/normal.gif" alt="Shiny Hunter" style="z-index: 2; position: absolute; top: calc(50% + 10cm); left: 50%; transform: translate(-50%, -50%);">
+    <img src="https://arnavprasad.me/img/projects/shiny_hunter/normal.gif" alt="Shiny Hunter">
     <div class="background-wrap">
         <div class="bubble x1"></div>
         <div class="bubble x2"></div>
