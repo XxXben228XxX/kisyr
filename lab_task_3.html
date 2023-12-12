@@ -10,6 +10,52 @@
   <link rel="stylesheet" href="styles_v1.css" />
   <title>Youtube Clone with HTML & CSS</title>
 </head>
+<style>
+    /* Your existing styles */
+    body {
+        margin: 0; /* Reset default margin */
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-rows: auto 1fr; /* Header on top, main content below */
+        height: 100vh; /* Full height of the viewport */
+    }
+
+    .header {
+        /* Your existing header styles */
+        grid-column: 1;
+        z-index: 1; /* Ensure header is above the background */
+    }
+
+    .main {
+        /* Your existing main content styles */
+        grid-column: 1;
+        overflow-y: scroll;
+    }
+
+    .video-section {
+        display: flex;
+        flex-wrap: wrap; /* Allow the videos to wrap to the next row */
+        gap: 20px;
+        justify-content: flex-start; /* Align videos to the top */
+        margin: 15px -28cm -24cm auto; /* Adjust margin: top 15px, right -8cm, bottom -8cm, left 0 */
+    }
+
+    .video-container {
+        box-sizing: border-box;
+        width: calc(20% - 20px); /* Set the width for 5 videos in a row with a gap of 20px */
+        max-width: 300px; /* Set a reasonable maximum width for the video container */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align content to the start (left) */
+    }
+
+    /* End of modified CSS */
+</style>
+
+
 <body>
   <header class="header">
     <div class="logo left">
@@ -35,143 +81,167 @@
 
   <main>
     <div class="side-bar">
-      <div class="nav">
-        <a class="nav-link active">
-          <i class="material-icons">home</i>
-          <span>Home</span>
-        </a>
-        <a class="nav-link">
-          <i class="material-icons">local_fire_department</i>
-          <span>Trending</span>
-        </a>
-        <a class="nav-link">
-          <i class="material-icons">subscriptions</i>
-          <span>Subscriptions</span>
-        </a>
-        <hr />
-        <a class="nav-link">
-          <i class="material-icons">library_add_check</i>
-          <span>Library</span>
-        </a>
-        <a class="nav-link">
-          <i class="material-icons">history</i>
-          <span>History</span>
-        </a>
-        <a class="nav-link">
-          <i class="material-icons">play_arrow</i>
-          <span>Your Videos</span>
-        </a>
-        <a class="nav-link">
-          <i class="material-icons">watch_later</i>
-          <span>Watch Later</span>
-        </a>
-        <a class="nav-link">
-          <i class="material-icons">thumb_up</i>
-          <span>Liked Videos</span>
-        </a>
-      </div>     
-    </div>
-    
+            <div class="nav">
+                <a href="#" class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+                <hr>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
+            </div>     
+        </div>
+      
+    <!-- Videos Section -->
 <div class="videos">
-  <!-- a video starts -->
-    <div class="video">
-       <div class="thumbnail">
-          <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-        </div>
+    <section class="video-section">
+        <article class="video-container">
+            <a href="#" class="thumbnail">
+                <img class="thumbnail-image" src="https://i.ytimg.com/vi/H96dhIHEY1s/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB1Mn1JgLhxyYE8ONXq1o_mn2cKjQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/APkrFKYw9nsjLvBRZtnZrFMALhpV1HqsIfg7NS5ihJ8d=s176-c-k-c0x00ffffff-no-rj" />
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-tetle">[ТРЕШ ОБЗОР] фильма ПАТХАН: СХВАТКА СО СМЕРТЬЮ (Индийский Форсаж)</a>
+                    <a href="#" class="video-channel-name">Dorian Gray</a>
+                    <div class="video-metadata">
+                        <span>399K Views</span>
+                        •
+                        <span>1 Months Ago</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+              <article class="video-container">
+            <a href="#" class="thumbnail">
+                <img class="thumbnail-image" src="https://i.ytimg.com/vi/H96dhIHEY1s/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB1Mn1JgLhxyYE8ONXq1o_mn2cKjQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/APkrFKYw9nsjLvBRZtnZrFMALhpV1HqsIfg7NS5ihJ8d=s176-c-k-c0x00ffffff-no-rj" />
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-tetle">[ТРЕШ ОБЗОР] фильма ПАТХАН: СХВАТКА СО СМЕРТЬЮ (Индийский Форсаж)</a>
+                    <a href="#" class="video-channel-name">Dorian Gray</a>
+                    <div class="video-metadata">
+                        <span>399K Views</span>
+                        •
+                        <span>1 Months Ago</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+       </article>
+              <article class="video-container">
+            <a href="#" class="thumbnail">
+                <img class="thumbnail-image" src="https://i.ytimg.com/vi/H96dhIHEY1s/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB1Mn1JgLhxyYE8ONXq1o_mn2cKjQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/APkrFKYw9nsjLvBRZtnZrFMALhpV1HqsIfg7NS5ihJ8d=s176-c-k-c0x00ffffff-no-rj" />
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-tetle">[ТРЕШ ОБЗОР] фильма ПАТХАН: СХВАТКА СО СМЕРТЬЮ (Индийский Форсаж)</a>
+                    <a href="#" class="video-channel-name">Dorian Gray</a>
+                    <div class="video-metadata">
+                        <span>399K Views</span>
+                        •
+                        <span>1 Months Ago</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+       </article>
+              <article class="video-container">
+            <a href="#" class="thumbnail">
+                <img class="thumbnail-image" src="https://i.ytimg.com/vi/H96dhIHEY1s/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB1Mn1JgLhxyYE8ONXq1o_mn2cKjQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/APkrFKYw9nsjLvBRZtnZrFMALhpV1HqsIfg7NS5ihJ8d=s176-c-k-c0x00ffffff-no-rj" />
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-tetle">[ТРЕШ ОБЗОР] фильма ПАТХАН: СХВАТКА СО СМЕРТЬЮ (Индийский Форсаж)</a>
+                    <a href="#" class="video-channel-name">Dorian Gray</a>
+                    <div class="video-metadata">
+                        <span>399K Views</span>
+                        •
+                        <span>1 Months Ago</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+       </article>
+              <article class="video-container">
+            <a href="#" class="thumbnail">
+                <img class="thumbnail-image" src="https://i.ytimg.com/vi/H96dhIHEY1s/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB1Mn1JgLhxyYE8ONXq1o_mn2cKjQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/APkrFKYw9nsjLvBRZtnZrFMALhpV1HqsIfg7NS5ihJ8d=s176-c-k-c0x00ffffff-no-rj" />
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-tetle">[ТРЕШ ОБЗОР] фильма ПАТХАН: СХВАТКА СО СМЕРТЬЮ (Индийский Форсаж)</a>
+                    <a href="#" class="video-channel-name">Dorian Gray</a>
+                    <div class="video-metadata">
+                        <span>399K Views</span>
+                        •
+                        <span>1 Months Ago</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+       </article>
+              <article class="video-container">
+            <a href="#" class="thumbnail">
+                <img class="thumbnail-image" src="https://i.ytimg.com/vi/H96dhIHEY1s/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB1Mn1JgLhxyYE8ONXq1o_mn2cKjQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/APkrFKYw9nsjLvBRZtnZrFMALhpV1HqsIfg7NS5ihJ8d=s176-c-k-c0x00ffffff-no-rj" />
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-tetle">[ТРЕШ ОБЗОР] фильма ПАТХАН: СХВАТКА СО СМЕРТЬЮ (Индийский Форсаж)</a>
+                    <a href="#" class="video-channel-name">Dorian Gray</a>
+                    <div class="video-metadata">
+                        <span>399K Views</span>
+                        •
+                        <span>1 Months Ago</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
 
-          <div class="details">
-             <div class="author">
-                <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj" alt="" />
-             </div>
-             <div class="title">
-                <h3>
-                    Introverts & Content Creation | Sumudu Siriwardana
-                 </h3>
-                 <a href="">
-                        Francesco Ciulla
-                  </a>
-                  <span> 2M Views • 3 Months Ago </span>
-             </div>
-           </div>
-
-         </div>
-   <!-- a video Ends -->
- </div>
-<div class="videos">
-  <!-- a video starts -->
-    <div class="video">
-       <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/H96dhIHEY1s/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB1Mn1JgLhxyYE8ONXq1o_mn2cKjQ" alt="" />
-        </div>
-
-          <div class="details">
-             <div class="author">
-                <img src="https://yt3.googleusercontent.com/ytc/APkrFKYw9nsjLvBRZtnZrFMALhpV1HqsIfg7NS5ihJ8d=s176-c-k-c0x00ffffff-no-rj" alt="" />
-             </div>
-             <div class="title">
-                <h3>
-                    [ТРЕШ ОБЗОР] фильма ПАТХАН: СХВАТКА СО СМЕРТЬЮ (Индийский Форсаж)
-                 </h3>
-                 <a href="">
-                        Dorian Gray
-                  </a>
-                  <span> 399K Views • 5 Months Ago </span>
-             </div>
-           </div>
-
-         </div>
-   <!-- a video Ends -->
- </div>
-    <div class="videos">
-  <!-- a video starts -->
-    <div class="video">
-       <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/Bcx55dz7uVA/maxresdefault.jpg" alt="" />
-        </div>
-
-          <div class="details">
-             <div class="author">
-                <img src="https://yt3.googleusercontent.com/ytc/APkrFKbvdUCaW-385WoPSa3d1UKPxVc7om4Umrv8ipFK=s176-c-k-c0x00ffffff-no-rj" alt="" />
-             </div>
-             <div class="title">
-                <h3>
-                    Using Guns to Kill 10,000 Zombies In the Hardest Map Mod- 100 Days Xonix's Mall
-                 </h3>
-                 <a href="">
-                        Ricksdetrix
-                  </a>
-                  <span> 10K Views • 9 Hours Ago </span>
-             </div>
-           </div>
-
-         </div>
-   <!-- a video Ends -->
- </div>
-    <div class="videos">
-  <!-- a video starts -->
-    <div class="video">
-       <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/wJYyxc_5ZJY/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD2XgxmpPGY7glx-B1JpjGc8SXtsA" alt="" />
-        </div>
-
-          <div class="details">
-             <div class="author">
-                <img src="https://yt3.googleusercontent.com/ytc/APkrFKau3OfREJnCZ5FvAsSyPFH0QiQ2cUHA-aQAHGFpDA=s176-c-k-c0x00ffffff-no-rj" alt="" />
-             </div>
-             <div class="title">
-                <h3>
-                    Лифт привез в другое измерение [ Треш обзор фильма Игра в Лифте ]
-                 </h3>
-                 <a href="">
-                        TerlKabot channel
-                  </a>
-                  <span> 505K Views • 2 Weaks Ago </span>
-             </div>
-           </div>
-
-         </div>
-   <!-- a video Ends -->
- </div>
     <div class="content"></div>
   </main>
   <!-- Main Body Ends -->
