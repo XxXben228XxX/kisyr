@@ -482,101 +482,345 @@
 }
 
 /* Mobile Styles */
-
-@media only screen and (max-width: 1080px) {
-  .home-child {
-    top: 30px;
-    left: 10px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: #edf7fa;
+  
+  @media only screen and (max-width: 767px) {
+	.home-mobile-child {
+		position: absolute;
+		top: 83px;
+		left: 97px;
+		width: 174.38px;
+		height: 180px;
+		object-fit: cover;
+	  }
+	  .hi-i-am {
+		margin: 0;
+	  }
+	  .hi-i-am-container {
+		position: absolute;
+		top: 297px;
+		left: 32px;
+		font-size: 32px;
+		line-height: 40px;
+		display: inline-block;
+		text-align: center;
+		width: 312px;
+	  }
+	  .amet-minim-mollit {
+		position: absolute;
+		top: 438px;
+		left: 24px;
+		text-align: center;
+		display: inline-block;
+		width: 328px;
+	  }
+	  .download-child {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		border-radius: 2px;
+		background-color: #ff6464;
+		width: 208px;
+		height: 47px;
+	  }
+	  .download-resume {
+		position: absolute;
+		top: 9px;
+		left: 20px;
+		font-weight: 500;
+		display: inline-block;
+		width: 167px;
+		height: 21px;
+	  }
+	  .download {
+		position: absolute;
+		top: 561px;
+		left: 84px;
+		width: 208px;
+		height: 47px;
+		font-size: 20px;
+		color: #fff;
+	  }
+	  .home-mobile-item {
+		position: absolute;
+		top: 666px;
+		left: 0px;
+		background-color: #edf7fa;
+		width: 375px;
+		height: 647px;
+	  }
+	  .recent-posts {
+		position: absolute;
+		top: 667px;
+		left: 135px;
+		font-size: 18px;
+		line-height: 60px;
+	  }
+	  .home-mobile-inner {
+		position: absolute;
+		top: 726px;
+		left: 11px;
+		border-radius: 4px;
+		background-color: #fff;
+		box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+		width: 354px;
+		height: 266px;
+	  }
+	  .rectangle-div {
+		position: absolute;
+		top: 1009px;
+		left: 11px;
+		border-radius: 4px;
+		background-color: #fff;
+		box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+		width: 354px;
+		height: 266px;
+	  }
+	  .making-a-design {
+		position: absolute;
+		top: 738px;
+		left: 30px;
+		font-size: 22px;
+		line-height: 30px;
+		display: inline-block;
+		width: 327px;
+	  }
+	  .creating-pixel-perfect {
+		position: absolute;
+		top: 1021px;
+		left: 30px;
+		font-size: 22px;
+		line-height: 30px;
+		display: inline-block;
+		width: 327px;
+	  }
+	  .design-pattern {
+		position: absolute;
+		top: 810px;
+		left: 167px;
+	  }
+	  .design-pattern1 {
+		position: absolute;
+		top: 1093px;
+		left: 167px;
+	  }
+	  .vector-icon {
+		position: absolute;
+		top: 811px;
+		left: 143px;
+		max-width: 100%;
+		overflow: hidden;
+		height: 21px;
+		object-fit: cover;
+	  }
+	  .home-mobile-child1 {
+		position: absolute;
+		top: 1094px;
+		left: 143px;
+		max-width: 100%;
+		overflow: hidden;
+		height: 21px;
+		object-fit: cover;
+	  }
+	  .feb-2020 {
+		position: absolute;
+		top: 810px;
+		left: 30px;
+	  }
+	  .feb-20201 {
+		position: absolute;
+		top: 1093px;
+		left: 30px;
+	  }
+	  .amet-minim-mollit1 {
+		position: absolute;
+		top: 853px;
+		left: 30px;
+		display: inline-block;
+		width: 314px;
+		height: 117px;
+	  }
+	  .amet-minim-mollit2 {
+		position: absolute;
+		top: 1136px;
+		left: 30px;
+		display: inline-block;
+		width: 314px;
+		height: 117px;
+	  }
+	  .featured-works {
+		position: absolute;
+		top: 1316px;
+		left: 126px;
+		font-size: 18px;
+		line-height: 60px;
+	  }
+	  .work-list-mobile-child {
+		position: absolute;
+		height: 50.55%;
+		width: 98.55%;
+		top: 0%;
+		right: 1.45%;
+		bottom: 49.45%;
+		left: 0%;
+		border-radius: 6px;
+		max-width: 100%;
+		overflow: hidden;
+		max-height: 100%;
+		object-fit: cover;
+	  }
+	  .designing-dashboards {
+		position: absolute;
+		top: 54.29%;
+		left: 0%;
+		font-size: 24px;
+		line-height: 30px;
+	  }
+	  .dashboard {
+		position: absolute;
+		top: 64.4%;
+		left: 24.42%;
+		color: #8695a4;
+	  }
+	  .group-child {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0%;
+		right: 0%;
+		bottom: 0%;
+		left: 0%;
+		border-radius: 16px;
+		background-color: #142850;
+	  }
+	  .div {
+		position: absolute;
+		height: 100%;
+		width: 61.29%;
+		top: 0%;
+		left: 19.35%;
+		line-height: 60px;
+		font-weight: 900;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+	  .rectangle-parent {
+		position: absolute;
+		height: 5.49%;
+		width: 18.02%;
+		top: 64.4%;
+		right: 81.98%;
+		bottom: 30.11%;
+		left: 0%;
+		text-align: center;
+		color: #fff;
+	  }
+	  .amet-minim-mollit3 {
+		position: absolute;
+		width: 100%;
+		top: 75.16%;
+		left: 0%;
+		display: inline-block;
+	  }
+	  .work-list-mobile-item {
+		position: absolute;
+		height: 0.22%;
+		width: 98.55%;
+		top: 100%;
+		right: 1.45%;
+		bottom: -0.22%;
+		left: 0%;
+		max-width: 100%;
+		overflow: hidden;
+		max-height: 100%;
+		object-fit: cover;
+	  }
+	  .work-list-mobile {
+		position: absolute;
+		top: 1378px;
+		left: 18px;
+		width: 344px;
+		height: 455px;
+	  }
+	  .footer-child {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0%;
+		right: 0%;
+		bottom: 0%;
+		left: 0%;
+		background-color: #fff;
+	  }
+	  .fb-icon {
+		position: absolute;
+		top: calc(50% - 40px);
+		left: calc(50% - 116.5px);
+		width: 30px;
+		height: 30px;
+		object-fit: cover;
+	  }
+	  .linkedin-icon {
+		position: absolute;
+		top: calc(50% - 40px);
+		left: calc(50% + 85.5px);
+		width: 30px;
+		height: 30px;
+		object-fit: cover;
+	  }
+	  .group-icon {
+		position: absolute;
+		top: calc(50% - 40px);
+		left: calc(50% + 13.5px);
+		width: 36.92px;
+		height: 30px;
+		object-fit: cover;
+	  }
+	  .insta-icon {
+		position: absolute;
+		top: calc(50% - 40px);
+		left: calc(50% - 51.5px);
+		width: 30px;
+		height: 30px;
+		object-fit: cover;
+	  }
+	  .copyright-2020-all {
+		position: absolute;
+		top: calc(50% + 16px);
+		left: 20.28%;
+	  }
+	  .footer {
+		position: absolute;
+		top: 1983px;
+		left: 0px;
+		width: 375px;
+		height: 182px;
+		text-align: center;
+		font-size: 14px;
+	  }
+	  .mobile-header-icon {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 375px;
+		height: 50px;
+		overflow: hidden;
+		object-fit: cover;
+	  }
+	  .home-mobile {
+		position: relative;
+		background-color: #fff;
+		width: 100%;
+		height: 2165px;
+		overflow: hidden;
+		text-align: left;
+		font-size: 16px;
+		color: #21243d;
+		font-family: Heebo;
+	  }
+	  
+	  
+  
+	/* Adjust other styles as needed */
   }
-
-  .hi-i-am-container,
-  .amet-minim-mollit,
-  .works,
-  .blog,
-  .contact,
-  .download-resume,
-  .home-inner,
-  .rectangle-section,
-  .rectangle-div,
-  .home-child1,
-  .home-child2,
-  .home-child3,
-  .home-child4,
-  .home-child5,
-  .home-child6,
-  .home-child7,
-  .home-child8,
-  .home-child9,
-  .home-child10,
-  .rectangle-icon {
-    width: 100%;
-    left: 0;
-  }
-
-  .hi-i-am-container {
-    top: 70px;
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .amet-minim-mollit {
-    top: 130px;
-  }
-
-  .works,
-  .blog,
-  .contact {
-    top: 15px;
-    font-size: 16px;
-  }
-
-  .download-resume {
-    top: 160px;
-    font-size: 16px;
-  }
-
-  .home-inner,
-  .rectangle-section {
-    top: 60px;
-    height: auto;
-  }
-
-  .rectangle-div {
-    top: 20px;
-    width: 100%;
-    height: auto;
-  }
-
-  .recent-posts,
-  .view-all,
-  .featured-works {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .designing-dashboards,
-  .vibrant-portraits-of,
-  .days-of-malayalam {
-    font-size: 18px;
-  }
-
-  .dashboard,
-  .illustration,
-  .typography,
-  .amet-minim-mollit3,
-  .amet-minim-mollit4,
-  .amet-minim-mollit5 {
-    font-size: 14px;
-  }
-
-  .div,
-  .div1,
-  .div2 {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
+  
