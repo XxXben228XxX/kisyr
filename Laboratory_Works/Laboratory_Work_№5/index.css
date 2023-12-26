@@ -492,12 +492,23 @@
   width: 243px;
   height: 243px;
 }
+/* Desktop Styles */
+
+.home-child {
+  position: absolute;
+  top: 223px;
+  left: 755px;
+  border-radius: 50%;
+  background-color: #edf7fa;
+  width: 243px;
+  height: 243px;
+}
 
 /* Add more desktop styles as needed */
 
-/* Mobile Styles */
+/* Mobile Styles for 6.26-inch screens */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
   .home-child {
     top: 50px;
     left: 20px;
@@ -506,7 +517,7 @@
   }
 
   /* Add more mobile styles as needed */
-  
+
   .hi-i-am-container {
     top: 100px;
     left: 20px;
