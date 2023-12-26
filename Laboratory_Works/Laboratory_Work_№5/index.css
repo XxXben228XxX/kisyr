@@ -480,3 +480,45 @@
   	color: #21243d;
   	font-family: Heebo;
 }
+
+/* Desktop Styles */
+
+.home-child {
+  position: absolute;
+  top: 223px;
+  left: 755px;
+  border-radius: 50%;
+  background-color: #edf7fa;
+  width: 243px;
+  height: 243px;
+}
+
+/* Add more desktop styles as needed */
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 767px) {
+  .home-child {
+    top: 50px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Add more mobile styles as needed */
+  
+  .hi-i-am-container {
+    top: 100px;
+    left: 20px;
+    font-size: 24px;
+    width: 80%;
+  }
+
+  .amet-minim-mollit {
+    top: 180px;
+    left: 20px;
+    width: 80%;
+  }
+
+  /* Adjust other styles as needed */
+}
